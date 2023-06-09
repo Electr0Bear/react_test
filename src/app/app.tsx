@@ -6,8 +6,8 @@ import Task2 from '../pages/task2/task2';
 function App() {
   return (
     <Routes>
-      <Route index element={<Navigate to="/task1" />} />
-      <Route path='/task1' element={<Task1 />} />
+      {/* <Route index element={<Navigate to="/task1" />} /> */}
+      <Route path='/' element={<Task1 />} />
       <Route path='/task2' element={<Task2 />} />
     </Routes>
   );
