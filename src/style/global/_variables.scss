@@ -1,0 +1,29 @@
+// Colors
+
+$color-black:                       #000;
+$color-white:                       #fff;
+
+$color-alizarin:                    #E82143;
+$color-free-speech-blue:            #3C6DC6;
+
+// FontFaces
+
+$ff-default: 'Roboto', 'Arial', sans-serif;
+$fs-default: 20px;
+$fw-default: 300;
+$lh-default: 120%;
+
+// Transitions
+
+$tf-default:                        ease;
+
+$trans-100:                         0.1s $tf-default;
+$trans-default:                     0.3s $tf-default;
+$trans-600:                         0.6s $tf-default;
+
+// Breakpoints
+
+$vp-768:                            768px;
+$vp-1024:                           1024px;
+$vp-1440:                           1440px;
+$vp-1920:                           1920px;

@@ -1,0 +1,18 @@
+@import 'global/mixins';
+@import 'global/variables';
+@import 'global/functions';
+@import 'global/fonts';
+@import 'global/global';
+@import 'global/container';
+
+
+@import 'components/link';
+@import 'components/list';
+@import 'components/title';
+@import 'components/text';
+@import 'components/res-card';
+@import 'components/diamond';
+
+@import 'blocks/page';
+@import 'blocks/header';
+@import 'blocks/intro';

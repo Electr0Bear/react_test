@@ -1,0 +1,22 @@
+.diamond {
+  font-size: size(250px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: size(400px);
+  height: size(300px);
+  padding: 0 0 size(60px) 0;
+
+  color: $color-white;
+  border: none;
+  outline: none;
+  background-color: $color-alizarin;
+
+  clip-path: polygon(30% 0, 70% 0, 100% 35%, 50% 100%, 0 35%);
+
+  &.active {
+    cursor: pointer;
+  }
+}

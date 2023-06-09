@@ -1,0 +1,15 @@
+.link {
+  text-decoration: none;
+  color: $color-black;
+
+  transition: $trans-default;
+
+  @include hover {
+    opacity: 0.7;
+  }
+
+  &.active {
+    pointer-events: none;
+    opacity: 0.2;
+  }
+}

@@ -1,0 +1,49 @@
+.list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  &--numbered {
+    counter-reset: num;
+  }
+
+  &--numbered & {
+    &__item {
+      position: relative;
+
+      display: flex;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      &::before {
+        font-size: 36px;
+        font-weight: 500;
+
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        justify-content: center;
+
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+
+        content: counter(num);
+        counter-increment: num;
+
+        color: $color-white;
+        border-radius: 50%;
+        background-color: $color-alizarin;
+      }
+
+      .text {
+        align-self: center;
+      }
+    }
+  }
+}
