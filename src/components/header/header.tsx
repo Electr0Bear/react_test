@@ -7,7 +7,7 @@ export default function Header() {
         <ul className='header__links list'>
           <li className='header__link'>
             <NavLink 
-              to='/'
+              to='/task1'
               className={({isActive}) =>
                 isActive ? 'link active' : 'link'
               }
